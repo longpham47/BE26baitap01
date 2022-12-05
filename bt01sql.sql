@@ -29,8 +29,10 @@ LIMIT 1;
 
 
 -- yc : tính số trung bình sud_food của một food
-
-
+SELECT sub_food.food_id, sum(sub_food.sub_price)/2 as TB_FOOD_SUB FROM sub_food
+LEFT JOIN food
+on sub_food.food_id = food.food_id
+GROUP by sub_food.food_id;
 
 
 
