@@ -8,18 +8,18 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 CREATE TABLE `like_res` (
-  `use_id` int DEFAULT NULL,
+  `user_id` int DEFAULT NULL,
   `res_id` int DEFAULT NULL,
   `date_like` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-INSERT INTO `like_res` (`use_id`, `res_id`, `date_like`) VALUES
+INSERT INTO `like_res` (`user_id`, `res_id`, `date_like`) VALUES
 (1, 3, '2020-02-02 00:00:00');
-INSERT INTO `like_res` (`use_id`, `res_id`, `date_like`) VALUES
+INSERT INTO `like_res` (`user_id`, `res_id`, `date_like`) VALUES
 (2, 1, '2022-05-05 00:00:00');
-INSERT INTO `like_res` (`use_id`, `res_id`, `date_like`) VALUES
+INSERT INTO `like_res` (`user_id`, `res_id`, `date_like`) VALUES
 (3, 2, '2022-08-08 00:00:00');
-INSERT INTO `like_res` (`use_id`, `res_id`, `date_like`) VALUES
+INSERT INTO `like_res` (`user_id`, `res_id`, `date_like`) VALUES
 (4, 1, '2022-08-07 00:00:00'),
 (5, 3, '2022-09-03 00:00:00'),
 (1, 3, '2022-10-10 00:00:00'),
